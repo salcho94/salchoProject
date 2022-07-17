@@ -1,14 +1,10 @@
 # salchoProject
-vue.js + springboot
+Thymeleaf + springboot
 
 
 
 front 
-
-start 
-1.yarn install
-2.yarn build
-3.yarn run serve
+Thymeleaf
 
 
 back-end 
