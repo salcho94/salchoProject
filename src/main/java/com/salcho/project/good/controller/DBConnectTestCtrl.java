@@ -24,9 +24,6 @@ public class DBConnectTestCtrl {
     public ModelAndView goHome(HttpServletRequest request) {
         ModelAndView mav = new ModelAndView();
 
-        List<TestDTO> salaryList = testDao.getTestData();
-
-        mav.addObject("salaryList", salaryList);
         mav.setViewName("content/home.html");
 
         return mav;
