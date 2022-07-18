@@ -24,7 +24,7 @@ public class DBConnectTestCtrl {
     public ModelAndView goHome(HttpServletRequest request) {
         ModelAndView mav = new ModelAndView();
 
-        mav.setViewName("content/home.html");
+        mav.setViewName("content/index.html");
 
         return mav;
     }
