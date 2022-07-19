@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/salcho_layout}">
+
+<!-- index.html 고유 CSS 추가 -->
+<th:block layout:fragment="css">
+</th:block>
+
+<!-- index.html 고유 스크립트 추가 -->
+<th:block layout:fragment="script">
+</th:block>
+
+<div layout:fragment="content">
+    <!-- About Section -->
+    <section id="about">
+        <div class="container content-section text-center">
+            <div class="row">
+                <h2>LIL' ABOUT ME</h2>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>
+                        Praesent ac dignissim diam. Aliquam lobortis elit et sapien eleifend, at sollicitudin metus elementum. Morbi imperdiet id ipsum at tristique. Nam suscipit tristique sem, <a href="#">quis</a> laoreet leo. Maecenas eget ante ipsum.
+                    </p>
+                    <p>
+                        <a href="#" class="btnghost"><i class="fa fa-download"></i> Curriculum Vitae</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="gallery">
+            <th:block th:each="num : ${#numbers.sequence(1,20)}">
+            <ul>
+                <li class="col-md-3">
+                    <a href="portfolio-item.html">
+                        <img th:src="@{'http://unsplash.it/680/380'(random=${num})}" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Author's Message</h2>
+                    <p>
+                        If you like "Aries" template, we'd love to hear from you, whether it be feedback, thanks, new template ideas or even just to say hello, we welcome it all!
+                    </p>
+                    <p>
+                        <i><a href="mailto:wowthemesnet@gmail.com" style="border-bottom:1px dashed #ccc;">wowthemesnet@gmail.com</a></i>
+                    </p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/wowthemesnet" class="btn btnghost btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/pages/wowthemesnet/562560840468823" class="btn btnghost btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/u/0/b/110916582192388695332/110916582192388695332/posts" class="btn btnghost btn-lg"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">Google+</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</html>
