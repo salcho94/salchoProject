@@ -5,155 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55aa01bd-cf55-4918-a307-42e70a7fed77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/admin/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/front/introduce/controller/IntroduceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/front/main/dao/MainDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/front/main/dto/MainDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/assets/img/kjs.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/content/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/content/front/introduce/introduce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/content/test/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/admin_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/good/controller/DBConnectTestCtrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/good/dao/TestDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/good/dto/TestDTO$TestDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/good/dto/TestDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/main/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/controller/HappyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/dao/HappyDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/dto/HappyDTO$HappyDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/dto/HappyDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mappers/happy/HappytMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mappers/test/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mappers/test/TestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/spinning.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_spinning.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/content/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragment/config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragment/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragment/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout/salcho_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout/salcho_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/config/MySQLConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/config/MySQLConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/good/controller/DBConnectTestCtrl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/good/dao/TestDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/good/dto/TestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/main/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/front/main/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/controller/HappyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/dao/HappyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/dao/TestDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/dto/HappyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/dto/TestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/happy/HappytMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/main/MainMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/test/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/test/TestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/spinning.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/spinning.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_spinning.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/js/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/front/js/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragment/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragment/config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragment/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragment/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragment/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragment/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/salcho_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/salcho_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/adminFragment/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/adminFragment/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/content/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/content/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/content/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/content/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragment/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragment/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragment/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,14 +166,15 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.salcho.project.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Gradle.salchoProject [build]" />
       <item itemvalue="Gradle.salchoProject [clean]" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -326,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658138395009</updated>
       <workItem from="1658138397156" duration="732000" />
-      <workItem from="1658189948519" duration="15305000" />
+      <workItem from="1658189948519" duration="16479000" />
     </task>
     <servers />
   </component>
