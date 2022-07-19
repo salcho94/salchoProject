@@ -2,8 +2,23 @@
       xmlns:th="http://www.thymeleaf.org">
 
 <!--headerFragment 선언-->
-<div th:fragment="headerFragment">
-    <h1>HEADER</h1>
+<!-- Intro Header -->
+<header class="intro" th:fragment="headerFragment">
+<div class="intro-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="brand-heading">THIS IS ARIES</h1>
+                <p class="intro-text">
+                    FREE TEMPLATE BY WOWTHEMES.NET
+                </p>
+                <a href="#about" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
+</header>
 
 </html>

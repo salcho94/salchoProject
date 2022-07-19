@@ -5,14 +5,21 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>SALCHO</title>
 
     <!-- config fragment 사용 -->
     <th:block th:replace="fragment/config :: configFragment" ></th:block>
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- nav fragment 사용 -->
+<th:block th:replace="fragment/nav :: navFragment"></th:block>
 <!-- header fragment 사용 -->
 <th:block th:replace="fragment/header :: headerFragment"></th:block>
 
