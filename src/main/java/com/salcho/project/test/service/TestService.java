@@ -1,2 +1,4 @@
-package com.salcho.project.test.service;public interface TestService {
+package com.salcho.project.test.service;
+
+public interface TestService {
 }

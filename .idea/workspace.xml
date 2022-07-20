@@ -5,98 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55aa01bd-cf55-4918-a307-42e70a7fed77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-oracle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/admin/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/config/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/config/MySQLConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/front/introduce/controller/IntroduceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/front/main/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/front/main/dao/MainDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/front/main/dto/MainDTO$MainDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/front/main/dto/MainDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/dao/TestDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/dto/TestDTO$TestDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/salcho/project/test/dto/TestDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/log4jdbc.log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mappers/main/MainMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mappers/test/TestMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/admin/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/admin/assets/img/kjs.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/admin/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/admin/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/spinning.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_spinning.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/front/js/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/adminFragment/config.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/adminFragment/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/content/admin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/content/front/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/content/front/introduce/introduce.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/content/test/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/config.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragment/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout/admin_layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout/salcho_layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/service/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salcho/project/test/service/TestServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragment/config.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/admin_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/admin_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/salcho_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/salcho_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminFragment/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/front/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +93,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mappers/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -196,7 +120,7 @@
       <recent name="com.salcho.project.test.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.salchoProject [bootJar]">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="salchoProject [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -273,13 +197,13 @@
     <list>
       <item itemvalue="Gradle.salchoProject [build]" />
       <item itemvalue="Gradle.salchoProject [clean]" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Gradle.salchoProject [bootJar]" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.salchoProject [bootJar]" />
         <item itemvalue="Gradle.salchoProject [clean]" />
+        <item itemvalue="Gradle.salchoProject [bootJar]" />
         <item itemvalue="Gradle.salchoProject [build]" />
       </list>
     </recent_temporary>
@@ -293,7 +217,8 @@
       <option name="presentableId" value="Default" />
       <updated>1658138395009</updated>
       <workItem from="1658138397156" duration="732000" />
-      <workItem from="1658189948519" duration="19762000" />
+      <workItem from="1658189948519" duration="22853000" />
+      <workItem from="1658275909523" duration="1216000" />
     </task>
     <servers />
   </component>

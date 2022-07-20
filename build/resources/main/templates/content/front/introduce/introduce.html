@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/salcho_layout}">
+
+<!-- index.html 고유 CSS 추가 -->
+<th:block layout:fragment="css">
+</th:block>
+
+<!-- index.html 고유 스크립트 추가 -->
+<th:block layout:fragment="script">
+</th:block>
+
+<div layout:fragment="content">
+    <!-- About Section -->
+    <section id="introduce">
+        <div class="container content-section text-left">
+            <div class="row">
+                <h2 class="text-center">INTRODUCE PAGE</h2>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>
+                        안녕하세요 개발자 SALCHO 입니다. 이 프로젝트는 thymeleaf + spring boot 로 이루어져 있습니다.
+                    </p>
+                    <p>
+                        저의 MBTI 는 INTP 입니다 추가로 현재까지 개발자를 하며 진행한 프로젝트 내역 입니다.
+                    </p>
+                    <p>
+                        공정경쟁 지원 시스템 - 개발<br>
+                        - Java,Jquery,JavaScript,Sql,SpringFrameWrok,MyBatis,Jsp,Mysql,Html,Css,Jstl
+                    </p>
+                    <p>
+                        콘텐츠분쟁조정위원회 - 기능개선 및 유지보수<br>
+                        - Java,Jquery,JavaScript,Tibero,SpringFrameWrok,MyBatis,Jsp,Mysql,Html,Css,Jstl
+                    </p>
+                    <p>
+                        국립국어원 한국어 교원자격 - 고도화 및 리뉴얼 진행<br>
+                        - Java,Jquery,JavaScript,SpringFrameWrok,MyBatis,Jsp,Mysql,Html,Css,Jstl,BootStrap
+                    </p>
+                    <p>
+                        신기한 나라 Live - 프론트단 개발 및 수정<br>
+                        - Jquery,JavaScript,thymeleaf
+                    </p>
+                    <p>
+                        한솔 관리자 - 부분개발<br>
+                        - Java,Jquery,JavaScript,Sql,SpringBoot,MyBatis,Jsp,Mysql,Html,Css,Jstl
+                    </p>
+                    <p>
+                        AltiCast - VOC 응대 및 부분개발<br>
+                        -TypeScript,Swagger
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</html>

@@ -1,2 +1,4 @@
-package com.salcho.project.test.service;public class TestServiceImpl {
+package com.salcho.project.test.service;
+
+public class TestServiceImpl implements TestService{
 }
