@@ -8,6 +8,7 @@
 <th:block layout:fragment="css">
 </th:block>
 
+
 <!-- index.html 고유 스크립트 추가 -->
 <th:block layout:fragment="script">
 </th:block>
@@ -31,14 +32,15 @@
     </section>
     <section id="portfolio">
         <div class="gallery">
-            <th:block th:each="num : ${#numbers.sequence(1,8)}">
+            <th:block th:each="dogNum : ${dogImg}">
             <ul>
-                <li class="col-md-3">
+                <li class="col-md-3" >
                     <a href="javascript:alert('준비중 입니다');">
-                        <img th:src="@{'http://unsplash.it/680/380'(random=${num})}" alt="">
+                        <img  th:src="@{'/front/img/dog/img_'+(${dogNum})+'.jpg'}" />
                     </a>
                 </li>
             </ul>
+            </th:block>
         </div>
     </section>
     <!-- Contact Section -->
@@ -69,4 +71,5 @@
         </div>
     </section>
 </div>
+
 </html>

@@ -23,3 +23,8 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+document.addEventListener("DOMContentLoaded", function(){
+    let randomNumber = Math.floor(Math.random() * 300) + 1;
+    $('.intro').css('background-image' , 'radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url(/front/img/main/main_'+randomNumber+'.jpg)');
+});

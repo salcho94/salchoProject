@@ -17,8 +17,7 @@ public class IntroduceController {
 
     @GetMapping("")
     public ModelAndView introduce(ModelAndView model) {
-        String path = "introduce";
-        MainDTO menu = mainDAO.get(path);
+        MainDTO menu = mainDAO.get("introduce");
         model.addObject("menu",menu);
         model.setViewName("content/front/introduce/introduce.html");
         return model;
